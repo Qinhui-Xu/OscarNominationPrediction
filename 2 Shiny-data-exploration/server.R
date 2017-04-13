@@ -43,6 +43,7 @@ shinyServer(function(input, output) {
     #print(moviename)
     
     a = max(plotvariable) + 20
+    
     #print(a)
     
     par(pin=c(150,100))
